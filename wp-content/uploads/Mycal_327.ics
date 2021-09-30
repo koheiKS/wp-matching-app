@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:calendar-links
+BEGIN:VEVENT
+UID:aa55114049f626edc50ec204b44fc283
+DTSTAMP;TZID=UTC:20210804T020028
+SUMMARY:マッチングアプリ - 13 8月 2021 11:00
+DTSTART;TZID=Asia/Tokyo:20210813T110000
+DTEND;TZID=Asia/Tokyo:20210813T113000
+DESCRIPTION:Salon name: マッチングアプリ \n\nサロンの住所:  \n\nSalon phone:  \n\nSalon email: shimazaki@oysterworld.jp \n\n予約サービス:\nHaircut: 11:00 ➝ 11:30 - Mario\n\n予約の注意事項:\nなし\n\nご予約状況: 完了
+END:VEVENT
+END:VCALENDAR

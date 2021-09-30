@@ -1,0 +1,1937 @@
+# Translation of Plugins - Front End PM - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Front End PM - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-07-16 22:45:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Front End PM - Stable (latest release)\n"
+
+#: templates/box-content.php:53
+msgid "No %s found. Try different filter."
+msgstr "%s が見つかりませんでした。他のフィルターをお試しください。"
+
+#: templates/box-content.php:49 templates/box-content.php:53
+#: includes/class-fep-rest-api.php:196
+msgid "messages"
+msgstr "メッセージ"
+
+#: templates/box-content.php:49 templates/box-content.php:53
+msgid "announcements"
+msgstr "お知らせ"
+
+#: templates/box-content.php:49 includes/class-fep-rest-api.php:196
+msgid "No %s found."
+msgstr "%s が見つかりませんでした。"
+
+#: admin/class-fep-admin-settings.php:85
+msgid "Select Page"
+msgstr "ページを選択"
+
+#: admin/class-fep-wp-list-table.php:143
+#: admin/class-fep-attachments-list-table.php:90
+msgid "Status change to %s"
+msgstr "ステータスは %s に変更されました"
+
+#: functions.php:292
+msgid "Processing... "
+msgstr "処理中…"
+
+#: admin/class-fep-admin-settings.php:521
+msgid "Can user reply messages deleted by other user?"
+msgstr "他のユーザーが削除したメッセージへの返信を許可しますか ?"
+
+#: admin/class-fep-admin-settings.php:520
+msgid "Reply Deleted Message"
+msgstr "削除されたメッセージへの返信"
+
+#: admin/class-fep-admin-settings.php:438
+msgid "Send email to all users of selected role(s) when a new announcement is published?"
+msgstr "新しいお知らせが公開された時、選択されたユーザーにメールを送信しますか ?"
+
+#: functions.php:805
+msgid "Next"
+msgstr "次へ"
+
+#: functions.php:800
+msgid "Previous"
+msgstr "前へ"
+
+#: includes/class-fep-rest-api.php:135
+msgid "You cannot view this message."
+msgstr "このメッセージは表示できません。"
+
+#: functions.php:299
+msgid "Do you really want to block %s? If you click \"OK\" then this user will not be able to send you any more messages."
+msgstr "%s を本当にブロックしますか ? 「OK」をクリックすると、このユーザーはあなたにメッセージを送れなくなります。"
+
+#: templates/menu.php:7
+msgid "Message Menu"
+msgstr "メッセージメニュー"
+
+#: templates/admin-edit-message-announcement.php:136
+msgid "Use this"
+msgstr "使用する"
+
+#: templates/admin-edit-message-announcement.php:89
+msgid "Save"
+msgstr "保存"
+
+#: templates/admin-edit-message-announcement.php:28
+msgid "Enter title here"
+msgstr "件名を入力"
+
+#: templates/admin-edit-message-announcement.php:15
+msgid "Edit %s"
+msgstr "%sを編集"
+
+#: admin/class-fep-admin-pages.php:138
+msgid "Invalid nonce"
+msgstr "無効な nonce"
+
+#: admin/class-fep-admin-pages.php:125 admin/class-fep-admin-pages.php:135
+msgid "Invalid Request"
+msgstr "無効なリクエスト"
+
+#: admin/class-fep-wp-list-table.php:269 admin/class-fep-admin-pages.php:37
+msgid "Edit"
+msgstr "編集"
+
+#: admin/class-fep-admin-pages.php:81
+msgid "announcement"
+msgstr "お知らせ"
+
+#: includes/class-fep-form.php:511
+msgid "Invalid Attachment"
+msgstr "無効な添付ファイル"
+
+#: includes/class-fep-attachment.php:136
+msgid "Attachment"
+msgid_plural "Attachments"
+msgstr[0] "添付ファイル"
+
+#: admin/class-fep-wp-list-table.php:278
+msgid "View in Front-end"
+msgstr "フロントエンドで見る"
+
+#: admin/class-fep-wp-list-table.php:117
+msgid "Recipients Count"
+msgstr "受信者数"
+
+#: admin/class-fep-wp-list-table.php:112
+msgid "Recipients"
+msgstr "受信者"
+
+#: admin/class-fep-update.php:206
+msgid "You cannot update from your current version."
+msgstr "現在のバージョンから更新することはできません。"
+
+#: admin/class-fep-update.php:197
+msgid "You do not have permission to trigger update."
+msgstr "更新を開始する権限がありません。"
+
+#: admin/class-fep-update.php:185
+msgid "%s needs to database update."
+msgstr "%s はデータベースの更新が必要です。"
+
+#: admin/class-fep-update.php:69 admin/class-fep-update.php:187
+msgid "Proceed"
+msgstr "続行"
+
+#: admin/class-fep-update.php:67
+msgid "You can now safely delete %s legacy messages and announcements."
+msgstr "これで、%s の従来のメッセージとお知らせを安全に削除できます。"
+
+#: admin/class-fep-update.php:54
+msgid "Start Update"
+msgstr "更新を開始"
+
+#: admin/class-fep-update.php:48
+msgid "DO NOT close this window. This may take a while."
+msgstr "時間がかかる場合があります。このウィンドウを閉じないでください。"
+
+#: admin/class-fep-update.php:46
+msgid "You must enable Javascript in order to proceed!"
+msgstr "続行するにはJavascriptを有効にする必要があります !"
+
+#: admin/class-fep-update.php:45
+msgid "%s update"
+msgstr "%s 更新"
+
+#: admin/class-fep-attachments-list-table.php:163
+msgid "Filter"
+msgstr "フィルター"
+
+#: admin/class-fep-attachments-list-table.php:157
+msgid "Show All"
+msgstr "すべて表示"
+
+#: admin/class-fep-attachments-list-table.php:148
+msgid "Download"
+msgstr "ダウンロード"
+
+#: admin/class-fep-attachments-list-table.php:148
+msgid "Download Attachment"
+msgstr "添付ファイルのダウンロード"
+
+#: admin/class-fep-attachments-list-table.php:147
+msgid "View Attachment"
+msgstr "添付ファイルを表示"
+
+#: admin/class-fep-admin-settings.php:45
+#: templates/admin-edit-message-announcement.php:84
+msgid "Are you sure you want to delete this?"
+msgstr "削除してよろしいですか ?"
+
+#: admin/class-fep-attachments-list-table.php:69
+msgid "Message id"
+msgstr "メッセージ id"
+
+#: admin/class-fep-wp-list-table.php:114
+#: admin/class-fep-attachments-list-table.php:68
+#: templates/admin-edit-message-announcement.php:58
+msgid "Status"
+msgstr "ステータス"
+
+#: admin/class-fep-attachments-list-table.php:67
+msgid "Mime"
+msgstr "MIME"
+
+#: admin/class-fep-attachments-list-table.php:65
+msgid "Thubmnail"
+msgstr "サムネイル"
+
+#: admin/class-fep-wp-list-table.php:97
+#: admin/class-fep-attachments-list-table.php:56
+msgid "Select %s"
+msgstr "%sを選択"
+
+#: admin/class-fep-admin-settings.php:829
+msgid "Export"
+msgstr "エクスポート"
+
+#: admin/class-fep-admin-settings.php:813
+msgid "Privacy"
+msgstr "プライバシー"
+
+#: admin/class-fep-admin-settings.php:396
+msgid "Erase Announcements"
+msgstr "お知らせを消去"
+
+#: admin/class-fep-admin-settings.php:384
+msgid "Erase Replies"
+msgstr "返信を消去"
+
+#: admin/class-fep-admin-settings.php:376
+#: admin/class-fep-admin-settings.php:388
+#: admin/class-fep-admin-settings.php:400
+msgid "Anonymize"
+msgstr "匿名化"
+
+#: admin/class-fep-admin-settings.php:375
+#: admin/class-fep-admin-settings.php:387
+#: admin/class-fep-admin-settings.php:399
+#: admin/class-fep-admin-settings.php:835
+msgid "Erase"
+msgstr "消去"
+
+#: admin/class-fep-admin-settings.php:374
+#: admin/class-fep-admin-settings.php:386
+#: admin/class-fep-admin-settings.php:398
+msgid "No Action"
+msgstr "何もしない"
+
+#: admin/class-fep-admin-settings.php:371
+msgid "Erase Messages"
+msgstr "メッセージを消去"
+
+#: admin/class-fep-admin-settings.php:364
+msgid "Export Announcements"
+msgstr "お知らせをエクスポート"
+
+#: admin/class-fep-admin-settings.php:356
+msgid "Export Messages"
+msgstr "メッセージをエクスポート"
+
+#: admin/class-fep-admin-settings.php:176
+msgid "Only publish attachments will show to users"
+msgstr "公開添付ファイルのみがユーザーに表示されます"
+
+#: admin/class-fep-admin-settings.php:175
+msgid "Attachment Default Status"
+msgstr "添付ファイルのデフォルトステータス"
+
+#: admin/class-fep-admin-settings.php:133
+msgid "Maximum users per page in directory"
+msgstr "ディレクトリ1ページに表示するユーザーの最大数 "
+
+#: admin/class-fep-admin-pages.php:554
+msgid "%s Replies"
+msgstr "%s 返信"
+
+#: admin/class-fep-admin-pages.php:46 admin/class-fep-admin-pages.php:463
+msgid "Messages"
+msgstr "メッセージ"
+
+#: admin/class-fep-admin-pages.php:450 admin/class-fep-admin-pages.php:520
+msgid "Content"
+msgstr "本文"
+
+#: admin/class-fep-admin-pages.php:402 admin/class-fep-admin-pages.php:558
+msgid "%s Announcements"
+msgstr "%s お知らせ"
+
+#: admin/class-fep-admin-pages.php:398 admin/class-fep-admin-pages.php:550
+msgid "%s Messages"
+msgstr "%s メッセージ"
+
+#: admin/class-fep-admin-pages.php:359
+msgid "%1$s %2$s status changed."
+msgid_plural "%1$s %2$ss status changed."
+msgstr[0] "%1$s件の %2$s ステータスを変更しました。"
+
+#: admin/class-fep-admin-pages.php:358
+msgid "%1$s %2$s permanently deleted."
+msgid_plural "%1$s %2$ss permanently deleted."
+msgstr[0] "%1$s件の %2$s を削除しました。"
+
+#: admin/class-fep-admin-pages.php:357
+msgid "%1$s %2$s updated."
+msgid_plural "%1$s %2$ss updated."
+msgstr[0] "%1$s件の %2$s を更新しました。"
+
+#: admin/class-fep-update.php:82
+msgid "Invalid nonce!"
+msgstr "無効な nonce!"
+
+#: admin/class-fep-update.php:79 admin/class-fep-admin-pages.php:214
+#: admin/class-fep-admin-pages.php:218 admin/class-fep-admin-pages.php:225
+#: admin/class-fep-admin-pages.php:248 admin/class-fep-admin-pages.php:279
+#: admin/class-fep-admin-pages.php:302 admin/class-fep-admin-pages.php:326
+msgid "Invalid request!"
+msgstr "無効なリクエスト !"
+
+#: admin/class-fep-admin-pages.php:108
+msgid "attachment"
+msgstr "添付ファイル"
+
+#: admin/class-fep-admin-pages.php:58 admin/class-fep-admin-pages.php:85
+#: admin/class-fep-admin-pages.php:112
+msgid "Search"
+msgstr "検索"
+
+#: admin/class-fep-admin-pages.php:54
+msgid "message"
+msgstr "メッセージ"
+
+#. translators: %s: search keywords
+#: admin/class-fep-admin-pages.php:50 admin/class-fep-admin-pages.php:77
+#: admin/class-fep-admin-pages.php:104
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221; の検索結果"
+
+#: admin/class-fep-admin-pages.php:35
+msgid "All Attachments"
+msgstr "すべての添付ファイル"
+
+#: templates/announcement_box.php:18 templates/box-announcement.php:20
+msgid "Search Announcements"
+msgstr "お知らせを検索"
+
+#: includes/class-fep-messages.php:244
+msgid "%s message successfully restored."
+msgid_plural "%s messages successfully restored."
+msgstr[0] "%s件のメッセージを復元しました。"
+
+#: includes/class-fep-messages.php:241
+msgid "%s message successfully archived."
+msgid_plural "%s messages successfully archived."
+msgstr[0] "%s件のメッセージをアーカイブしました。"
+
+#: includes/class-fep-messages.php:238
+msgid "%s message successfully marked as unread."
+msgid_plural "%s messages successfully marked as unread."
+msgstr[0] "%s件のメッセージを未読にしました。"
+
+#: includes/class-fep-messages.php:235
+msgid "%s message successfully marked as read."
+msgid_plural "%s messages successfully marked as read."
+msgstr[0] "%s件のメッセージを既読にしました。"
+
+#: includes/class-fep-messages.php:232
+msgid "%s message successfully deleted."
+msgid_plural "%s messages successfully deleted."
+msgstr[0] "%s件のメッセージを削除しました。"
+
+#: includes/class-fep-directory.php:185
+msgid "%s user successfully unblocked."
+msgid_plural "%s users successfully unblocked."
+msgstr[0] "%s ユーザーのブロックを解除しました。"
+
+#: includes/class-fep-directory.php:180
+msgid "%s user successfully blocked."
+msgid_plural "%s users successfully blocked."
+msgstr[0] "%s ユーザーをブロックしました。"
+
+#: includes/class-fep-announcements.php:209
+#: includes/class-fep-announcement.php:280
+msgid "%s announcement successfully deleted."
+msgid_plural "%s announcements successfully deleted."
+msgstr[0] "%s件のお知らせを削除しました。"
+
+#: admin/extensions.php:13 admin/extensions.php:44
+msgid "Error loading extensions. Please reload the page again!"
+msgstr "拡張機能を読み込み時にエラーが発生しました。もう一度ページをリロードしてください !"
+
+#: admin/class-fep-admin-settings.php:960
+msgid "View More"
+msgstr "もっと見る"
+
+#: admin/class-fep-admin-settings.php:957
+msgid "Email Beautify"
+msgstr "Email Beautify"
+
+#: admin/class-fep-admin-settings.php:956
+msgid "Group Messaging"
+msgstr "Group Messaging"
+
+#: admin/class-fep-admin-settings.php:955
+msgid "Only Admin"
+msgstr "管理者のみ"
+
+#: admin/class-fep-admin-settings.php:954
+msgid "Multiple Recipient"
+msgstr "Multiple Recipient"
+
+#: admin/class-fep-admin-settings.php:940
+msgid "Shortcodes"
+msgstr "ショートコード"
+
+#: admin/class-fep-admin-settings.php:939
+msgid "Remove menu"
+msgstr "メニューの削除"
+
+#: admin/class-fep-admin-settings.php:938
+msgid "Remove minlength"
+msgstr "最小文字数制限の削除"
+
+#: admin/class-fep-admin-settings.php:937
+msgid "Walkthrough"
+msgstr "初期表示でメッセージボックスを表示する"
+
+#: admin/class-fep-admin-settings.php:936
+msgid "Basic Admin Settings"
+msgstr "基本的な設定"
+
+#: admin/class-fep-admin-settings.php:119
+msgid "Messages per page"
+msgstr "1ページに表示するメッセージ"
+
+#: admin/class-fep-admin-settings.php:101
+msgid "The page must have %s shortcode in content."
+msgstr "ページ内にショートコード %s が含まれている必要があります。"
+
+#. Author of the plugin
+msgid "Shamim Hasan"
+msgstr "Shamim Hasan"
+
+#: includes/class-fep-shortcodes.php:114
+msgid "You cannot send message to %s"
+msgstr "%s にメッセージを送ることができません"
+
+#: includes/class-fep-shortcodes.php:112
+msgid "You must <a href=\"%s\">login</a> to contact"
+msgstr "<a href=\"%s\">ログイン</a> が必要です"
+
+#: templates/messagebox.php:47 templates/announcement_box.php:53
+#: templates/box-content.php:10 templates/directory.php:54
+msgid "Check/Uncheck all"
+msgstr "すべて チェック / チェック解除"
+
+#: admin/class-fep-admin-settings.php:235
+msgid "Never"
+msgstr "読み込まない"
+
+#: admin/class-fep-admin-settings.php:234
+msgid "Only in message page"
+msgstr "メッセージページのみ"
+
+#: admin/class-fep-admin-settings.php:233
+msgid "Always"
+msgstr "すべてのページ"
+
+#: admin/class-fep-admin-settings.php:231
+msgid "Select when you want to load CSS file of this plugin."
+msgstr "プラグインの CSS を読み込むページを選択してください。"
+
+#: admin/class-fep-admin-settings.php:230
+msgid "Load CSS file"
+msgstr "CSS ファイルの読み込み"
+
+#: admin/class-fep-admin-settings.php:571
+msgid "Create Page"
+msgstr "ページを作成"
+
+#: functions.php:738
+msgid "%s from now"
+msgstr "%s後"
+
+#: functions.php:273
+msgid "You have received a new announcement. "
+msgstr "新しいお知らせがあります。 "
+
+#: functions.php:272
+msgid "New Announcement. "
+msgstr "新しいお知らせ。 "
+
+#: functions.php:270
+msgid "You have received a new message. "
+msgstr "新しいメッセージがあります。"
+
+#: functions.php:269
+msgid "New Message. "
+msgstr "新しいメッセージ。 "
+
+#: admin/class-fep-admin-settings.php:841
+msgid "Notification"
+msgstr "通知"
+
+#: admin/class-fep-admin-settings.php:825
+msgid "Misc"
+msgstr "その他"
+
+#: admin/class-fep-admin-settings.php:558
+msgid "Play notification sound on message and announcement received?"
+msgstr "メッセージを受信したりお知らせが公開された際に通知音を鳴らしますか ?"
+
+#: admin/class-fep-admin-settings.php:557
+msgid "Play Sound"
+msgstr "通知音"
+
+#: admin/class-fep-admin-settings.php:549
+msgid "Show desktop notification for new messages and announcements?"
+msgstr "メッセージを受信したりお知らせが公開された際にデスクトップ通知を表示しますか ?"
+
+#: admin/class-fep-admin-settings.php:548
+msgid "Show desktop notification"
+msgstr "デスクトップ通知"
+
+#: admin/class-fep-admin-settings.php:997
+msgid "Already did"
+msgstr "評価済"
+
+#: admin/class-fep-admin-settings.php:996
+msgid "Maybe later"
+msgstr "後で"
+
+#: admin/class-fep-admin-settings.php:995
+msgid "Sure, deserve it"
+msgstr "レビューページへ"
+
+#: admin/class-fep-admin-settings.php:993
+msgid "Like %s plugin? Please consider review in WordPress.org and give 5&#9733; rating."
+msgstr "%sは気に入っていただけましたか ? よろしければ WordPress.org で5&#9733;評価、レビューの投稿をお願いいたします。"
+
+#: admin/class-fep-admin-settings.php:797
+msgid "Appearance"
+msgstr "外観"
+
+#: admin/class-fep-admin-settings.php:709
+msgid "Provide valid color for %s"
+msgstr "%s 有効な色を設定してください"
+
+#: admin/class-fep-admin-settings.php:334
+msgid "Messages Heading Color"
+msgstr "メッセージヘッダーの色"
+
+#: admin/class-fep-admin-settings.php:325
+msgid "Even Messages Color"
+msgstr "偶数行の色"
+
+#: admin/class-fep-admin-settings.php:316
+msgid "Odd Messages Color"
+msgstr "奇数行の色"
+
+#: admin/class-fep-admin-settings.php:307
+msgid "Active Button Text Color"
+msgstr "アクティブなボタンの文字色"
+
+#: admin/class-fep-admin-settings.php:298
+msgid "Active Button Color"
+msgstr "アクティブなボタンの色"
+
+#: admin/class-fep-admin-settings.php:289
+msgid "Button Text Color"
+msgstr "ボタンの文字色"
+
+#: admin/class-fep-admin-settings.php:280
+msgid "Button Color"
+msgstr "ボタンの色"
+
+#: admin/class-fep-admin-settings.php:271
+msgid "Link Color"
+msgstr "リンクの色"
+
+#: admin/class-fep-admin-settings.php:262
+msgid "Text Color"
+msgstr "文字の色"
+
+#: admin/class-fep-admin-settings.php:253
+msgid "Background Color"
+msgstr "背景色"
+
+#: admin/class-fep-pro-info.php:430
+msgid "Send Message to group"
+msgstr "グループにメッセージを送る"
+
+#: admin/class-fep-pro-info.php:364
+msgid "Can add to group"
+msgstr "グループに追加できる"
+
+#: admin/class-fep-pro-info.php:363
+msgid "Can users add themself to group."
+msgstr "ユーザー自身をグループに追加できる。"
+
+#: admin/class-fep-pro-info.php:356
+msgid "Can send to group?"
+msgstr "グループに送信できますか ?"
+
+#: admin/class-fep-pro-info.php:355
+msgid "Can users send message to group?"
+msgstr "グループにメッセージを送信できますか ?"
+
+#: admin/class-fep-pro-info.php:122 admin/class-fep-pro-info.php:371
+msgid "Groups"
+msgstr "グループ"
+
+#: includes/class-fep-form.php:528
+msgid "Attachment (%1$s) file is too big. Maximum file size allowed %2$s"
+msgstr "添付ファイル (%1$s) が大きすぎます。ファイルサイズは %2$s までです。"
+
+#: templates/directory.php:70
+msgid "No users found. Try different filter."
+msgstr "ユーザが見つかりませんでした。 検索条件を変更してお試しください。"
+
+#: functions.php:330
+msgid "Searching..."
+msgstr "検索中..."
+
+#: functions.php:328
+msgid "Type user name"
+msgstr "ユーザー名を入力"
+
+#: templates/view-message-heads.php:32 includes/class-fep-messages.php:350
+msgid "More users"
+msgstr "もっと見る"
+
+#: includes/class-fep-form.php:128
+msgid "Blocked Users"
+msgstr "ブロックされたユーザー"
+
+#: includes/class-fep-directory.php:176
+msgid "You cannot block other users."
+msgstr "他のユーザーをブロックすることはできません。"
+
+#: includes/class-fep-directory.php:165
+msgid "Please select users."
+msgstr "ユーザーを選択してください。"
+
+#: admin/class-fep-attachments-list-table.php:66
+#: includes/class-fep-directory.php:115
+msgid "Name"
+msgstr "名前"
+
+#: includes/class-fep-directory.php:106
+msgid "Unblocked"
+msgstr "ブロックされていない"
+
+#: includes/class-fep-directory.php:105
+msgid "Blocked"
+msgstr "ブロック"
+
+#: includes/class-fep-announcements.php:66
+#: includes/class-fep-announcement.php:68
+msgid "Announcement successfully added."
+msgstr "お知らせが正常に追加されました。"
+
+#: templates/new_announcement_form.php:9 templates/form-announcement.php:9
+#: includes/class-fep-announcements.php:59
+#: includes/class-fep-announcement.php:61
+msgid "You do not have permission to create announcement!"
+msgstr "お知らせを作成する権限がありません !"
+
+#: includes/class-fep-ajax.php:37
+msgid "Failed"
+msgstr "失敗"
+
+#: templates/view-message-legacy.php:55 templates/view-message-content.php:51
+#: templates/viewmessage.php:47 includes/class-fep-ajax.php:33
+#: includes/class-fep-directory.php:92 includes/class-fep-directory.php:118
+#: includes/class-fep-directory.php:143
+msgid "Unblock"
+msgstr "ブロック解除する"
+
+#: templates/view-message-legacy.php:57 templates/view-message-content.php:53
+#: templates/viewmessage.php:47 includes/class-fep-ajax.php:30
+#: includes/class-fep-directory.php:91 includes/class-fep-directory.php:118
+#: includes/class-fep-directory.php:145
+msgid "Block"
+msgstr "ブロック"
+
+#: functions.php:1275 includes/fep-widgets.php:129
+msgid "unread"
+msgstr "未読"
+
+#: functions.php:291
+msgid "Refresh this page and try again. "
+msgstr "このページを更新してもう一度お試しください。"
+
+#: admin/class-fep-admin-settings.php:503
+msgid "Can user block other users?"
+msgstr "ユーザーのブロック機能を許可しますか ?"
+
+#: admin/class-fep-admin-settings.php:502
+msgid "Block other users"
+msgstr "ユーザーのブロック"
+
+#: admin/class-fep-admin-settings.php:512
+msgid "Can permitted users add Announcement from front end?"
+msgstr "許可されたユーザーにフロントからのお知らせ追加を許可しますか ?"
+
+#: admin/class-fep-admin-settings.php:511
+msgid "Add Announcement"
+msgstr "お知らせを追加"
+
+#: admin/class-fep-admin-settings.php:215
+msgid "Show Branding Footer"
+msgstr "ブランディングフッターを表示する"
+
+#: admin/class-fep-admin-settings.php:540
+msgid "Show unread messages count in website title?"
+msgstr "未読のメッセージ数をウェブサイトのタイトルに表示しますか ?"
+
+#: admin/class-fep-admin-settings.php:539
+msgid "Show count"
+msgstr "カウントを表示"
+
+#: admin/class-fep-admin-settings.php:530
+msgid "Show notification"
+msgstr "通知を表示"
+
+#: admin/class-fep-admin-settings.php:207
+msgid "Show Directory in front end?"
+msgstr "ディレクトリをフロントエンドに表示しますか ?"
+
+#: admin/class-fep-admin-settings.php:206
+msgid "Show Directory"
+msgstr "ディレクトリを表示"
+
+#: admin/class-fep-admin-settings.php:199
+msgid "Maximum Number of attachments a user can add with message."
+msgstr "ユーザーがメッセージに追加できる添付ファイルの最大数。"
+
+#: admin/class-fep-admin-settings.php:198
+msgid "Maximum attachments"
+msgstr "最大添付ファイル数"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.shamimsplugins.com/contact-us/"
+msgstr "https://www.shamimsplugins.com/contact-us/"
+
+#: templates/shortcode_newmessage_form.php:9
+#: templates/form-shortcode-message.php:9
+msgid "You do not have permission to send message to this receiver!"
+msgstr "このユーザーにメッセージを送る権限がありません !"
+
+#: templates/box-message.php:18 templates/messagebox.php:16
+msgid "Search Messages"
+msgstr "メッセージを検索"
+
+#: includes/class-fep-shortcodes.php:51 includes/class-fep-shortcodes.php:86
+msgid "Contact"
+msgstr "お問い合わせ"
+
+#: includes/class-fep-cpt.php:156
+msgid "Changing this will NOT send email to newly added users OR prevent email sending to removed users if any"
+msgstr "この項目を変更すると、新しく追加されたユーザーにはメールが送信されません"
+
+#: includes/class-fep-attachment.php:147
+msgid "Download %s"
+msgstr "ダウンロード %s"
+
+#: functions.php:283 includes/class-fep-form.php:516
+msgid "%s file"
+msgid_plural "%s files"
+msgstr[0] "%s ファイル"
+
+#: functions.php:283 includes/class-fep-form.php:516
+msgid "Maximum %s allowed"
+msgstr "最大値は %s です"
+
+#: admin/class-fep-update.php:408
+msgid "%s message meta updated"
+msgid_plural "%s messages meta updated"
+msgstr[0] "%s メッセージのメタ情報を更新"
+
+#: admin/class-fep-update.php:246
+msgid "Messages meta updated"
+msgstr "メタ情報が更新されたMessages meta updated"
+
+#: admin/class-fep-update.php:380
+msgid "All messages and announcements updated"
+msgstr "すべてのメッセージとお知らせが更新されました"
+
+#: admin/class-fep-update.php:319
+msgid "All messages updated"
+msgstr "すべてのメッセージを更新しました"
+
+#: admin/class-fep-update.php:311
+msgid "%s message updated"
+msgid_plural "%s messages updated"
+msgstr[0] "%s件のメッセージを更新しました"
+
+#: admin/class-fep-update.php:284
+msgid "%s announcement updated"
+msgid_plural "%s announcements updated"
+msgstr[0] "%s件のお知らせを更新しました"
+
+#: admin/class-fep-update.php:226
+msgid "Update completed."
+msgstr "更新を完了しました。"
+
+#: admin/class-fep-pro-info.php:429
+msgid "Send Message to admin"
+msgstr "管理者にメッセージを送る"
+
+#: admin/class-fep-pro-info.php:421
+msgid "Select For"
+msgstr "選択する"
+
+#: admin/class-fep-pro-info.php:419 admin/class-fep-pro-info.php:420
+msgid "Select Role"
+msgstr "役割を選択"
+
+#: admin/class-fep-pro-info.php:415
+msgid "Block For"
+msgstr "ブロック"
+
+#: admin/class-fep-pro-info.php:414
+msgid "To Role"
+msgstr "役割へ"
+
+#: admin/class-fep-pro-info.php:413
+msgid "From Role"
+msgstr "役割から"
+
+#: admin/class-fep-pro-info.php:347 admin/class-fep-pro-info.php:381
+msgid "Radio Button"
+msgstr "ラジオボタン"
+
+#: admin/class-fep-pro-info.php:346 admin/class-fep-pro-info.php:380
+msgid "Dropdown"
+msgstr "ドロップダウン"
+
+#: admin/class-fep-pro-info.php:337
+msgid "Admins"
+msgstr "管理者"
+
+#: admin/class-fep-pro-info.php:296
+msgid "Send attachments with announcement email?"
+msgstr "お知らせメールにファイル添付を許可しますか ?"
+
+#: admin/class-fep-pro-info.php:273
+msgid "Announcement email template"
+msgstr "お知らせ通知メールテンプレート"
+
+#: admin/class-fep-pro-info.php:254
+msgid "Send attachments with reply message email?"
+msgstr "返信メッセージにファイル添付を許可しますか ?"
+
+#: admin/class-fep-pro-info.php:231
+msgid "Reply message email template"
+msgstr "返信メッセージ通知メールテンプレート"
+
+#: admin/class-fep-pro-info.php:226
+msgid "Send attachments with new message email?"
+msgstr "メッセージにファイル添付を許可しますか ?"
+
+#: admin/class-fep-pro-info.php:225 admin/class-fep-pro-info.php:253
+#: admin/class-fep-pro-info.php:295
+msgid "Send Attachments"
+msgstr "添付ファイルを送信"
+
+#: admin/class-fep-pro-info.php:203
+msgid "New message email template"
+msgstr "新しいメッセージ通知メールテンプレート"
+
+#: admin/class-fep-pro-info.php:198
+msgid "Default"
+msgstr "デフォルト"
+
+#: admin/class-fep-pro-info.php:129 admin/class-fep-admin-settings.php:959
+msgid "Role to Role Block"
+msgstr "役割ブロックへの役割"
+
+#: admin/class-fep-admin-settings.php:109
+msgid "This setting change will redirect you to update page for database update."
+msgstr "この設定を変更すると、データベース更新用のページにリダイレクトされます。"
+
+#: templates/view-message-legacy.php:66 templates/view-message-content.php:64
+#: templates/viewmessage.php:56
+msgid "Toggle Messages"
+msgstr "メッセージ表示・非表示"
+
+#: templates/directory.php:18
+msgid "Search Users"
+msgstr "ユーザーを検索"
+
+#. Description of the plugin
+msgid "Front End PM is a Private Messaging system and a secure contact form to your WordPress site.This is full functioning messaging system fromfront end. The messaging is done entirely through the front-end of your site rather than the Dashboard. This is very helpful if you want to keep your users out of the Dashboard area."
+msgstr "Front End PM はプライベートメッセージシステムで、WordPressサイトに安全な連絡フォームを設置できます。このメッセージシステムはダッシュボードからではなく、あなたのサイトのフロントエンドから利用できます。ユーザーにダッシュボードの利用をさせたくない場合、非常に有効なプラグインです。"
+
+#: includes/fep-widgets.php:241
+msgid "Display help to configure this widget in front end?"
+msgstr "このウィジェットをフロントエンドで設定するためのヘルプを表示しますか ?"
+
+#: includes/fep-widgets.php:197
+msgid "Front End PM Empty Widget"
+msgstr "Front End PM Empty ウィジェット"
+
+#: includes/fep-widgets.php:196 includes/fep-widgets.php:232
+msgid "FEP Empty Widget"
+msgstr "FEP Empty Widget"
+
+#: includes/fep-widgets.php:157
+msgid "Show Announcement?"
+msgstr "お知らせを表示しますか ?"
+
+#: includes/fep-widgets.php:153
+msgid "Show Messagebox?"
+msgstr "メッセージボックスを表示しますか ?"
+
+#: includes/fep-widgets.php:88
+msgid "Front End PM Text Widget"
+msgstr "Front End PM テキストウィジェット"
+
+#: includes/fep-widgets.php:87 includes/fep-widgets.php:143
+msgid "FEP Text Widget"
+msgstr "FEP テキストウィジェット"
+
+#: includes/fep-widgets.php:49 includes/fep-widgets.php:148
+#: includes/fep-widgets.php:236
+msgid "Title:"
+msgstr "タイトル:"
+
+#: includes/fep-widgets.php:14
+msgid "Front End PM Menu Widget"
+msgstr "Front End PM メニューウィジェット"
+
+#: includes/fep-widgets.php:13 includes/fep-widgets.php:46
+msgid "FEP Menu Widget"
+msgstr "FEP メニューウィジェット"
+
+#: functions.php:1414 templates/form-reply.php:7 templates/view-message.php:32
+#: templates/reply_form.php:7 includes/class-fep-rest-api.php:147
+msgid "You do not have permission to send reply to this message!"
+msgstr "このメッセージに返信する権限がありません !"
+
+#: templates/view-message-legacy.php:46 templates/view-message-content.php:42
+#: templates/viewmessage.php:55
+msgid "Participants"
+msgstr "参加者"
+
+#: admin/class-fep-admin-pages.php:381 admin/class-fep-admin-pages.php:387
+#: templates/view-message-legacy.php:90 templates/view-message-content.php:89
+#: templates/viewmessage.php:81 includes/fep-class.php:126
+#: includes/fep-class.php:131 includes/class-fep-rest-api.php:140
+msgid "You do not have permission to view this message!"
+msgstr "メッセージを表示する権限がありません !"
+
+#: functions.php:1395 templates/form-message.php:8
+#: templates/newmessage_form.php:8
+msgid "You do not have permission to send new message!"
+msgstr "メッセージを送信する権限がありません !"
+
+#: templates/settings.php:6 templates/form-settings.php:6
+msgid "Set your preferences below"
+msgstr "設定を以下に変更してください"
+
+#: templates/view-message-heads.php:46 templates/messagebox.php:64
+msgid "No messages found. Try different filter."
+msgstr "メッセージが見つかりませんでした。検索条件を変更してお試しください。"
+
+#: templates/box-message.php:8 templates/messagebox.php:8
+msgid "No messages found."
+msgstr "メッセージが見つかりませんでした。"
+
+#: templates/header.php:19 includes/fep-widgets.php:110
+msgid "Welcome"
+msgstr "ようこそ"
+
+#: includes/fep-class.php:82
+msgid "unlimited"
+msgstr "無制限"
+
+#: includes/class-fep-user-settings.php:47
+msgid "Settings successfully saved."
+msgstr "設定を保存しました。"
+
+#: functions.php:1407 functions.php:1426
+#: includes/class-fep-announcements.php:68
+#: includes/class-fep-announcement.php:70
+msgid "Something wrong. Please try again."
+msgstr "問題が発生しました。もう一度お試しください。"
+
+#: functions.php:1404 functions.php:1423
+msgid "Message successfully sent and waiting for admin moderation."
+msgstr "メッセージを送信しました。管理者の確認をお待ちください。"
+
+#: functions.php:1402 functions.php:1421
+msgid "Message successfully sent."
+msgstr "メッセージを送信しました。"
+
+#: includes/fep-class.php:71
+msgid "You must <a href=\"%s\">login</a> to view your message."
+msgstr "メッセージを見るには <a href=\"%s\">ログイン</a> してください。"
+
+#: includes/fep-class.php:24
+msgid "You do not have permission to access message system"
+msgstr "メッセージシステムにアクセスする権限がありません"
+
+#: includes/class-fep-messages.php:320
+msgid "Author"
+msgstr "投稿者"
+
+#: includes/class-fep-directory.php:114 includes/class-fep-messages.php:319
+msgid "Avatar"
+msgstr "アバター"
+
+#: admin/class-fep-wp-list-table.php:113 includes/class-fep-messages.php:308
+msgid "Sent"
+msgstr "送信済"
+
+#: includes/class-fep-messages.php:307
+msgid "Inbox"
+msgstr "受信トレイ"
+
+#: includes/class-fep-messages.php:299 includes/class-fep-messages.php:311
+msgid "Archive"
+msgstr "アーカイブ"
+
+#: includes/class-fep-messages.php:297
+msgid "Restore"
+msgstr "復元"
+
+#: includes/class-fep-messages.php:294
+msgid "Mark as unread"
+msgstr "未読にする"
+
+#: includes/class-fep-messages.php:293
+msgid "Mark as read"
+msgstr "既読にする"
+
+#: functions.php:1248 templates/header.php:22 includes/fep-widgets.php:115
+#: includes/class-fep-rest-api.php:278
+msgid "%s message"
+msgid_plural "%s messages"
+msgstr[0] "%s件のメッセージ"
+
+#: includes/class-fep-messages.php:54
+msgid "Your message box is full. Please delete some messages."
+msgstr "メッセージボックスがいっぱいです。不要なメッセージを削除してください。"
+
+#: includes/class-fep-messages.php:42
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s 分"
+
+#: includes/class-fep-messages.php:42
+msgid "Please wait at least %s between messages."
+msgstr "次のメッセージの送信まで %s お待ち下さい。"
+
+#: includes/class-fep-announcements.php:34
+#: includes/class-fep-announcement.php:36
+msgid "Announcement%s"
+msgstr "お知らせ %s"
+
+#: includes/class-fep-menu.php:44
+msgid "Message Box%s"
+msgstr "メッセージボックス %s"
+
+#: includes/class-fep-cpt.php:277 includes/class-fep-form.php:625
+msgid "Reply"
+msgstr "返信"
+
+#: includes/class-fep-form.php:623
+msgid "Save Changes"
+msgstr "変更内容を保存"
+
+#: includes/class-fep-form.php:532
+msgid "Invalid attachment file type. Allowed Types are (%s)"
+msgstr "無効なファイル形式です。添付できるファイル: (%s)"
+
+#: includes/class-fep-form.php:476 includes/class-fep-form.php:485
+#: includes/class-fep-form.php:493 includes/class-fep-form.php:498
+msgid "Invalid value for %s."
+msgstr "%s は無効な値です。"
+
+#: includes/class-fep-form.php:468
+msgid "You do not have permission to send this message!"
+msgstr "メッセージを送信する権限がありません !"
+
+#: includes/class-fep-form.php:466
+msgid "Invalid parent ID!"
+msgstr "無効な親IDです !"
+
+#: includes/class-fep-form.php:461
+msgid "You must enter a valid recipient!"
+msgstr "有効な受信者を入力してください !"
+
+#: includes/class-fep-form.php:457
+msgid "Invalid receiver \"%s\"."
+msgstr "“%s” は無効な受信者です。"
+
+#: includes/class-fep-form.php:454
+msgid "%s does not want to receive messages!"
+msgstr "%s はメッセージ受信設定をしていません !"
+
+#: includes/class-fep-form.php:421
+msgid "%s is not a valid number."
+msgstr "%s は有効な数字ではありません。"
+
+#: includes/class-fep-form.php:416
+msgid "Please provide valid email address for %s."
+msgstr "%s 有効なメールアドレスを入力してください。"
+
+#: includes/class-fep-form.php:403
+msgid "%s maxlength %d."
+msgstr "%s 最大 %d."
+
+#: includes/class-fep-form.php:401
+msgid "%s minlength %d."
+msgstr "%s 最小 %d."
+
+#: includes/class-fep-form.php:399
+msgid "%s can not be changed."
+msgstr "%s は変更できません。"
+
+#: includes/class-fep-form.php:397
+msgid "%s required."
+msgstr "%s は必須です。"
+
+#: includes/class-fep-form.php:116
+msgid "Email me when new announcement is published?"
+msgstr "新しいお知らせが公開されたら通知メールを送りますか ?"
+
+#: includes/class-fep-form.php:109
+msgid "Email me when I get new messages?"
+msgstr "新しいメッセージを受け取ったら通知メール送りますか ?"
+
+#: includes/class-fep-form.php:102
+msgid "Allow others to send me messages?"
+msgstr "他の人が私にメッセージを送ることを許可しますか ?"
+
+#: includes/class-fep-form.php:36
+msgid "Username of the recipient."
+msgstr "宛先のユーザー名。"
+
+#: includes/class-fep-form.php:35
+msgid "Name of the recipient."
+msgstr "宛先。"
+
+#: includes/class-fep-emails.php:115
+msgid "Please Click the following link to view full Announcement."
+msgstr "お知らせ全文を見るには次のリンクをクリックしてください。"
+
+#: includes/class-fep-emails.php:114
+msgid "Title: %s"
+msgstr "タイトル: %s"
+
+#: includes/class-fep-emails.php:112
+msgid "A new Announcement is Published in "
+msgstr "新しいお知らせが公開されました　"
+
+#: includes/class-fep-emails.php:48
+msgid "Please Click the following link to view full Message."
+msgstr "メッセージ全文を見るには次のリンクをクリックしてください。"
+
+#: includes/class-fep-emails.php:47
+msgid "Subject: %s"
+msgstr "件名: %s"
+
+#: includes/class-fep-emails.php:46
+msgid "From: %s"
+msgstr "From: %s"
+
+#: includes/class-fep-emails.php:44
+msgid "You have received a new message in"
+msgstr "新しいメッセージを受信しました"
+
+#: templates/form-message.php:5 templates/newmessage_form.php:5
+#: includes/class-fep-form.php:627 includes/class-fep-directory.php:120
+#: includes/class-fep-directory.php:151
+msgid "Send Message"
+msgstr "メッセージを送る"
+
+#: includes/class-fep-directory.php:35
+msgid "You do not have permission to access directory!"
+msgstr "ディレクトリにアクセスする権限がありません  !"
+
+#: includes/class-fep-directory.php:26
+msgid "Directory"
+msgstr "ディレクトリ"
+
+#: admin/class-fep-wp-list-table.php:119 includes/class-fep-cpt.php:335
+msgid "Deleted Count"
+msgstr "削除数"
+
+#: admin/class-fep-wp-list-table.php:118 includes/class-fep-cpt.php:334
+msgid "Read Count"
+msgstr "既読数"
+
+#: includes/class-fep-cpt.php:310
+msgid "No Participants"
+msgstr "参加者がいません"
+
+#: includes/class-fep-cpt.php:297
+msgid "No Parent"
+msgstr "親がありません"
+
+#: admin/class-fep-wp-list-table.php:121 includes/class-fep-cpt.php:287
+msgid "Parent"
+msgstr "親"
+
+#: includes/class-fep-cpt.php:286 includes/class-fep-cpt.php:333
+#: includes/class-fep-form.php:31
+msgid "To"
+msgstr "To"
+
+#: includes/class-fep-cpt.php:285
+msgid "From"
+msgstr "From"
+
+#: admin/class-fep-wp-list-table.php:271
+#: admin/class-fep-attachments-list-table.php:147
+#: includes/class-fep-cpt.php:276 includes/class-fep-cpt.php:279
+msgid "View"
+msgstr "表示"
+
+#: includes/class-fep-cpt.php:242
+msgid "Can NOT be edited once published"
+msgstr "公開後の編集はできません"
+
+#: includes/class-fep-cpt.php:145
+msgid "Announcement to roles"
+msgstr "役割へのお知らせ"
+
+#: includes/class-fep-cpt.php:137
+msgid "Message To"
+msgstr "メッセージ"
+
+#: includes/class-fep-cpt.php:92
+msgid "No Announcements found in Trash"
+msgstr "ゴミ箱にお知らせは見つかりませんでした"
+
+#: includes/class-fep-cpt.php:91
+msgid "No Announcements found"
+msgstr "お知らせは見つかりませんでした"
+
+#: includes/class-fep-cpt.php:90
+msgid "Search Announcement"
+msgstr "お知らせを探す"
+
+#: includes/class-fep-cpt.php:89
+msgid "View Announcement"
+msgstr "お知らせを表示"
+
+#: admin/class-fep-admin-pages.php:33 includes/class-fep-cpt.php:88
+msgid "All Announcements"
+msgstr "すべてのお知らせ"
+
+#: includes/class-fep-cpt.php:86
+msgid "Edit Announcement"
+msgstr "お知らせを編集"
+
+#: templates/new_announcement_form.php:6 templates/form-announcement.php:6
+#: includes/class-fep-cpt.php:84 includes/class-fep-cpt.php:85
+#: includes/class-fep-cpt.php:87 includes/class-fep-cpt.php:111
+#: includes/class-fep-emails.php:111 includes/class-fep-announcements.php:43
+#: includes/class-fep-announcement.php:45
+msgid "New Announcement"
+msgstr "新しいお知らせ"
+
+#: includes/class-fep-cpt.php:83
+msgctxt "post type singular name"
+msgid "Announcement"
+msgstr "お知らせ"
+
+#: includes/class-fep-cpt.php:82
+msgctxt "post type general name"
+msgid "Announcements"
+msgstr "お知らせ"
+
+#. Plugin Name of the plugin
+#: includes/class-fep-cpt.php:94
+msgid "Front End PM"
+msgstr "Front End PM"
+
+#: includes/class-fep-cpt.php:59
+msgid "No Messages found in Trash"
+msgstr "ゴミ箱にメッセージは見つかりませんでした"
+
+#: includes/class-fep-cpt.php:58
+msgid "No Messages found"
+msgstr "メッセージが見つかりません"
+
+#: includes/class-fep-cpt.php:57
+msgid "Search Message"
+msgstr "メッセージを検索"
+
+#: includes/class-fep-cpt.php:56
+msgid "View Message"
+msgstr "メッセージを表示"
+
+#: admin/class-fep-admin-pages.php:31 includes/class-fep-cpt.php:55
+msgid "All Messages"
+msgstr "すべてのメッセージ"
+
+#: includes/class-fep-cpt.php:53
+msgid "Edit Message"
+msgstr "メッセージを編集"
+
+#: includes/class-fep-cpt.php:51 includes/class-fep-cpt.php:52
+#: includes/class-fep-cpt.php:54 includes/class-fep-emails.php:43
+#: includes/class-fep-menu.php:51
+msgid "New Message"
+msgstr "新しいメッセージ"
+
+#: includes/class-fep-cpt.php:50
+msgctxt "post type singular name"
+msgid "Message"
+msgstr "メッセージ"
+
+#: includes/class-fep-cpt.php:49
+msgctxt "post type general name"
+msgid "Messages"
+msgstr "メッセージ"
+
+#: includes/class-fep-attachment.php:208
+msgid "Attachment already deleted"
+msgstr "添付ファイルはすでに削除されています"
+
+#: includes/class-fep-attachment.php:198 includes/class-fep-attachment.php:200
+msgid "You have no permission to download this attachment."
+msgstr "この添付ファイルをダウンロードする権限はありません。"
+
+#: includes/class-fep-attachment.php:179 includes/class-fep-attachment.php:183
+#: includes/class-fep-attachment.php:187 includes/class-fep-attachment.php:192
+msgid "No attachments found"
+msgstr "添付ファイルが見つかりません"
+
+#: admin/class-fep-admin-pages.php:100 admin/class-fep-admin-pages.php:456
+#: admin/class-fep-admin-pages.php:526
+#: templates/admin-edit-message-announcement.php:100
+#: templates/admin-edit-message-announcement.php:136
+msgid "Attachments"
+msgstr "添付ファイル"
+
+#: admin/class-fep-admin-pages.php:389 templates/view-announcement.php:35
+#: templates/view_announcement.php:27 includes/class-fep-announcements.php:306
+#: includes/class-fep-announcements.php:312
+#: includes/class-fep-announcement.php:383
+msgid "You do not have permission to view this announcement!"
+msgstr "お知らせを見る権限がありません !"
+
+#: templates/announcement_box.php:75
+msgid "No announcements found. Try different filter."
+msgstr "お知らせが見つかりません。検索条件を変更してお試しください。"
+
+#: includes/class-fep-announcements.php:243
+#: includes/class-fep-announcement.php:321 includes/class-fep-directory.php:104
+#: includes/class-fep-messages.php:306
+msgid "Show all"
+msgstr "すべて表示"
+
+#: templates/box-message.php:35 templates/messagebox.php:33
+#: templates/announcement_box.php:35 templates/directory.php:35
+#: templates/box-announcement.php:37
+msgid "Apply"
+msgstr "適用"
+
+#: templates/box-message.php:27 templates/messagebox.php:25
+#: templates/announcement_box.php:27 templates/directory.php:27
+#: templates/box-announcement.php:29
+msgid "Bulk action"
+msgstr "一括処理"
+
+#: templates/announcement_box.php:73
+msgid "No announcements found."
+msgstr "お知らせはありません。"
+
+#: admin/class-fep-admin-pages.php:516 includes/class-fep-announcements.php:255
+#: includes/class-fep-announcement.php:333 includes/class-fep-messages.php:321
+msgid "Title"
+msgstr "タイトル"
+
+#: admin/class-fep-admin-pages.php:442 admin/class-fep-admin-pages.php:512
+#: includes/class-fep-announcements.php:254
+#: includes/class-fep-announcement.php:332
+msgid "Date"
+msgstr "日付"
+
+#: includes/class-fep-announcements.php:253
+#: includes/class-fep-announcement.php:331 includes/class-fep-directory.php:113
+#: includes/class-fep-messages.php:318
+msgid "Checkbox"
+msgstr "チェックボックス"
+
+#: includes/class-fep-announcement.php:324
+msgid "After I registered"
+msgstr "私が登録した後"
+
+#: includes/class-fep-announcements.php:245
+#: includes/class-fep-announcements.php:273
+#: includes/class-fep-announcement.php:323
+#: includes/class-fep-announcement.php:351 includes/class-fep-messages.php:310
+#: includes/class-fep-messages.php:368
+msgid "Unread"
+msgstr "未読"
+
+#: includes/class-fep-announcements.php:244
+#: includes/class-fep-announcement.php:322 includes/class-fep-messages.php:309
+msgid "Read"
+msgstr "既読"
+
+#: admin/class-fep-admin-settings.php:44 admin/class-fep-wp-list-table.php:140
+#: admin/class-fep-wp-list-table.php:267
+#: admin/class-fep-attachments-list-table.php:87
+#: admin/class-fep-attachments-list-table.php:145
+#: templates/admin-edit-message-announcement.php:84
+#: templates/admin-edit-message-announcement.php:127
+#: includes/class-fep-announcements.php:236
+#: includes/class-fep-announcement.php:314 includes/class-fep-messages.php:292
+msgid "Delete"
+msgstr "削除"
+
+#: functions.php:1250 templates/header.php:22 includes/fep-widgets.php:125
+#: includes/class-fep-rest-api.php:283
+msgid "%s announcement"
+msgid_plural "%s announcements"
+msgstr[0] "%s件のお知らせ"
+
+#: functions.php:1439 includes/class-fep-form.php:426
+#: includes/class-fep-form.php:431
+msgid "Invalid Token. Please try again!"
+msgstr "無効なトークンです。もう一度お試しください !"
+
+#: functions.php:1268 includes/fep-widgets.php:120
+msgid "and"
+msgstr "と"
+
+#: functions.php:1258 includes/fep-widgets.php:111
+msgid "You have"
+msgstr " あなたに"
+
+#: functions.php:250 functions.php:329
+msgid "No matches found"
+msgstr "見つかりませんでした"
+
+#: functions.php:1023
+msgid "RE:"
+msgstr "RE:"
+
+#: functions.php:740
+msgid "%s ago"
+msgstr "%s 前"
+
+#: functions.php:732
+msgid "Unpublished"
+msgstr "未公開"
+
+#: functions.php:446 functions.php:1337
+msgid "Error"
+msgstr "エラー"
+
+#: admin/extensions.php:37
+msgid "View Details"
+msgstr "詳細を表示する"
+
+#: admin/extensions.php:35
+msgid "Installed"
+msgstr "インストール済み"
+
+#: admin/extensions.php:7
+msgid "Front End PM - Extensions"
+msgstr "Front End PM 機能拡張"
+
+#: admin/class-fep-update.php:38
+msgid "Update"
+msgstr "更新"
+
+#: admin/class-fep-pro-info.php:400 admin/class-fep-pro-info.php:406
+#: admin/class-fep-pro-info.php:424
+#: templates/admin-edit-message-announcement.php:136
+msgid "Add More"
+msgstr "さらに追加"
+
+#: admin/class-fep-pro-info.php:398 admin/class-fep-pro-info.php:416
+#: admin/class-fep-pro-info.php:422 functions.php:281
+#: includes/class-fep-form.php:365
+msgid "Remove"
+msgstr "削除"
+
+#: admin/class-fep-pro-info.php:397
+msgid "Username"
+msgstr "ユーザー名"
+
+#: admin/class-fep-pro-info.php:396
+msgid "Display as"
+msgstr "表示"
+
+#: admin/class-fep-pro-info.php:344 admin/class-fep-pro-info.php:378
+msgid "Show in front end as"
+msgstr "フロントエンドでの表示"
+
+#: admin/class-fep-pro-info.php:343 admin/class-fep-pro-info.php:377
+msgid "Select how you want to see in frontend."
+msgstr "フロントエンドでどのように表示されるか選択してください。"
+
+#: admin/class-fep-pro-info.php:336 admin/class-fep-pro-info.php:370
+#: admin/class-fep-pro-info.php:388
+msgid "Do not forget to save."
+msgstr "忘れずに保存してください。"
+
+#: admin/class-fep-pro-info.php:330
+msgid "Can send to admin?"
+msgstr "管理者に送信しますか ?"
+
+#: admin/class-fep-pro-info.php:329
+msgid "Can users send message to admin?"
+msgstr "管理者に送信できるユーザーは ?"
+
+#: admin/class-fep-pro-info.php:322
+msgid "Show read receipt bottom of every message?"
+msgstr "すべてのメッセージの末尾に開封確認を表示しますか ?"
+
+#: admin/class-fep-pro-info.php:321 admin/class-fep-admin-settings.php:958
+msgid "Read Receipt"
+msgstr "開封確認"
+
+#: admin/class-fep-pro-info.php:313
+msgid "Separate Message"
+msgstr "別のメッセージ"
+
+#: admin/class-fep-pro-info.php:312
+msgid "Same Message"
+msgstr "同じメッセージ"
+
+#: admin/class-fep-pro-info.php:310
+msgid "Message type"
+msgstr "メッセージ形式"
+
+#: admin/class-fep-pro-info.php:309
+msgid "How messages will be sent to recipients?"
+msgstr "受診者にメッセージを送りますか ?"
+
+#: admin/class-fep-pro-info.php:303
+msgid "Max recipients"
+msgstr "最大受信者数"
+
+#: admin/class-fep-pro-info.php:302
+msgid "Maximum recipients per message."
+msgstr "メッセージに指定できる受信者の最大数です。"
+
+#: admin/class-fep-pro-info.php:288
+msgid "Announcement content."
+msgstr "お知らせコンテンツ。"
+
+#: admin/class-fep-pro-info.php:281
+msgid "Announcement subject."
+msgstr "お知らせの件名。"
+
+#: admin/class-fep-pro-info.php:268
+msgid "Announcement emails send per interval."
+msgstr "お知らせメールは間隔をあけて送信されます。"
+
+#: admin/class-fep-pro-info.php:267
+msgid "Emails send per interval."
+msgstr "お知らせメールの送信間隔。"
+
+#: admin/class-fep-pro-info.php:261
+msgid "Announcement sending Interval in minutes."
+msgstr "お知らせ送信間隔 (分) 。"
+
+#: admin/class-fep-pro-info.php:260
+msgid "Sending Interval."
+msgstr "送信間隔。"
+
+#: admin/class-fep-pro-info.php:246
+msgid "Reply content."
+msgstr "返信内容。"
+
+#: admin/class-fep-pro-info.php:239
+msgid "Reply subject."
+msgstr "返信件名。"
+
+#: admin/class-fep-pro-info.php:218
+msgid "New message content."
+msgstr "新しいメッセージの内容。"
+
+#: admin/class-fep-pro-info.php:211
+msgid "New message subject."
+msgstr "新しいメッセージの件名。"
+
+#: admin/class-fep-pro-info.php:195
+msgid "Clean reply quote from email?"
+msgstr "メールの返信の引用をクリアしますか ?"
+
+#: admin/class-fep-pro-info.php:194
+msgid "Clean reply quote"
+msgstr "返信の引用をクリア"
+
+#: admin/class-fep-pro-info.php:187
+msgid "Piping Email"
+msgstr "Piping Email"
+
+#: admin/class-fep-pro-info.php:186
+msgid "Use this email as email piping."
+msgstr "このメールを email piping として使用します。"
+
+#: admin/class-fep-pro-info.php:180
+msgid "Enable email piping?"
+msgstr "Email Piping を有効化しますか ?"
+
+#: admin/class-fep-pro-info.php:179
+msgid "Enable"
+msgstr "有効化"
+
+#: admin/class-fep-pro-info.php:115
+msgid "Only Admins"
+msgstr "管理者のみ"
+
+#: admin/class-fep-pro-info.php:108
+msgid "Multiple Recipients"
+msgstr "Multiple Recipients"
+
+#: admin/class-fep-pro-info.php:101
+msgid "Announcement email"
+msgstr "お知らせ通知メール"
+
+#: admin/class-fep-pro-info.php:94
+msgid "Reply Message email"
+msgstr "返信メッセージ通知メール"
+
+#: admin/class-fep-pro-info.php:87
+msgid "New Message email"
+msgstr "新しいメッセージ通知メール"
+
+#: admin/class-fep-admin-settings.php:953
+msgid "Email Piping"
+msgstr "Email Piping"
+
+#: admin/class-fep-pro-info.php:54
+msgid "Website URL"
+msgstr "ウェブサイト URL"
+
+#: admin/class-fep-pro-info.php:51
+msgid "Website title"
+msgstr "ウェブサイト名"
+
+#: admin/class-fep-pro-info.php:48
+msgid "Receiver"
+msgstr "受信者"
+
+#: admin/class-fep-pro-info.php:45 admin/class-fep-wp-list-table.php:111
+#: templates/admin-view-message-announcement.php:15
+#: includes/class-fep-cpt.php:183
+msgid "Sender"
+msgstr "送り主"
+
+#: admin/class-fep-pro-info.php:41
+msgid "URL of announcement"
+msgstr "お知らせの URL"
+
+#: admin/class-fep-pro-info.php:37
+msgid "URL of message"
+msgstr "メッセージの URL"
+
+#: admin/class-fep-pro-info.php:34
+msgid "Full Message"
+msgstr "メッセージ全文"
+
+#: admin/class-fep-pro-info.php:31 admin/class-fep-wp-list-table.php:110
+#: admin/class-fep-admin-pages.php:446
+#: templates/admin-view-message-announcement.php:12
+#: includes/class-fep-form.php:54 includes/class-fep-form.php:58
+msgid "Subject"
+msgstr "件名"
+
+#: admin/class-fep-admin-settings.php:947
+msgid "Front End PM PRO"
+msgstr "Front End PM PRO"
+
+#: admin/class-fep-admin-settings.php:930
+msgid "Some Useful Links"
+msgstr "役立ちリンク"
+
+#: admin/class-fep-admin-settings.php:916
+msgid "Plugin Author"
+msgstr "プラグイン作成者"
+
+#: admin/class-fep-admin-settings.php:847
+msgid "Message Box"
+msgstr "メッセージボックス"
+
+#: admin/class-fep-admin-settings.php:821
+msgid "Security"
+msgstr "セキュリティ"
+
+#: admin/class-fep-admin-settings.php:817
+msgid "Emails"
+msgstr "メール"
+
+#: admin/class-fep-admin-pages.php:73 admin/class-fep-admin-pages.php:533
+msgid "Announcements"
+msgstr "お知らせ"
+
+#: includes/class-fep-form.php:70
+msgid "Message"
+msgstr "メッセージ"
+
+#: admin/class-fep-admin-settings.php:801
+#: templates/admin-view-message-announcement.php:18
+msgid "Recipient"
+msgstr "受信者"
+
+#: admin/class-fep-admin-settings.php:793
+msgid "General"
+msgstr "一般"
+
+#: admin/class-fep-admin-settings.php:729
+#: admin/class-fep-admin-settings.php:739
+msgid "Invalid value for %s"
+msgstr "%s は無効な値です"
+
+#: admin/class-fep-admin-settings.php:703
+msgid "Provide valid email address for %s"
+msgstr "%s に有効なメールアドレスを入力してください"
+
+#: admin/class-fep-admin-settings.php:687 includes/class-fep-form.php:383
+msgid "No Function or Hook defined for %s field type"
+msgstr "%s のフィールドタイプに有効なフックまたは関数が設定されていません"
+
+#: admin/class-fep-admin-settings.php:567
+msgid "Max messages a %s can keep in box? (0 = unlimited)"
+msgstr "%s が受信できるメッセージの最大数 (0= 無制限 )"
+
+#: admin/class-fep-admin-settings.php:494
+msgid "Separated by comma. These users have NO permission if allowed by role also."
+msgstr "カンマ区切りで複数設定できます。これらのユーザーは、ユーザー種別で許可されていても、利用できません。"
+
+#: admin/class-fep-admin-settings.php:493
+msgid "Blacklist Username"
+msgstr "ブラックリスト"
+
+#: admin/class-fep-admin-settings.php:486
+msgid "Separated by comma. These users have all permission if blocked by role also."
+msgstr "カンマ区切りで複数設定できます。これらのユーザーは、ユーザー種別で制限されていても、利用できます。"
+
+#: admin/class-fep-admin-settings.php:485
+msgid "Whitelist Username"
+msgstr "ホワイトリスト"
+
+#: admin/class-fep-admin-settings.php:477
+msgid "Who can send replies?"
+msgstr "メッセージに返信できるユーザーは ?"
+
+#: admin/class-fep-admin-settings.php:467
+msgid "Who can send new messages?"
+msgstr "メッセージを送信できるユーザーは ?"
+
+#: admin/class-fep-admin-settings.php:458
+msgid "User must have access permission to send new message or reply."
+msgstr "新しいメッセージや返信メッセージを送るには、利用許可されている必要があります。"
+
+#: admin/class-fep-admin-settings.php:456
+msgid "Who can access message system?"
+msgstr "メッセージシステムを利用できるユーザーは ?"
+
+#: admin/class-fep-admin-settings.php:429
+msgid "All sent emails by Front End PM plugin will have this email address as sender."
+msgstr "Front End PMプラグインから送信されるすべての電子メールは、この電子メールアドレスが送信者メールアドレスとして設定されます。"
+
+#: admin/class-fep-admin-settings.php:428
+msgid "From Email"
+msgstr "送信者メールアドレス"
+
+#: admin/class-fep-admin-settings.php:421
+msgid "All sent emails by Front End PM plugin will have this name as sender."
+msgstr "Front End PMプラグインから送信されるすべての電子メールは、この名前が送信者名として設定されます。"
+
+#: admin/class-fep-admin-settings.php:420
+msgid "From Name"
+msgstr "送信者名"
+
+#: admin/class-fep-admin-settings.php:412
+msgid "Plain Text"
+msgstr "プレーンテキスト"
+
+#: admin/class-fep-admin-settings.php:411
+msgid "HTML"
+msgstr "HTML メール"
+
+#: admin/class-fep-admin-settings.php:409
+msgid "Email Content Type"
+msgstr "メール形式"
+
+#: admin/class-fep-admin-settings.php:446
+msgid "All users email will be in \"Bcc\" field."
+msgstr "すべてのユーザーのメールは Bcc フィールドに表示されます。"
+
+#: admin/class-fep-admin-settings.php:445
+msgid "Valid email address for \"to\" field of announcement email"
+msgstr "通知メールの宛先フィールドの有効なメールアドレス"
+
+#: admin/class-fep-admin-settings.php:437
+msgid "Send email?"
+msgstr "通知メールを送信しますか ?"
+
+#: admin/class-fep-admin-settings.php:127
+msgid "Announcements to show per page."
+msgstr "1ページに表示するお知らせの数を設定します。"
+
+#: admin/class-fep-admin-settings.php:126
+msgid "Announcements per page"
+msgstr "1ページに表示するお知らせ"
+
+#: admin/class-fep-admin-settings.php:112
+msgid "Individual"
+msgstr "ユーザー毎"
+
+#: admin/class-fep-admin-settings.php:111
+msgid "Threaded"
+msgstr "スレッド"
+
+#: admin/class-fep-admin-settings.php:108
+msgid "Message view"
+msgstr "メッセージ表示"
+
+#: admin/class-fep-admin-settings.php:344
+msgid "Show Autosuggestion when typing recipient name?"
+msgstr "宛先を入力する際、入力候補を表示しますか ?"
+
+#: admin/class-fep-admin-settings.php:343
+msgid "Show Autosuggestion"
+msgstr "入力候補を表示"
+
+#: admin/class-fep-admin-settings.php:223
+msgid "Check this box if you would like %s to completely remove all of its data when the plugin is deleted."
+msgstr "チェックボックスにチェックをすると、%s プラグイン削除時にデータをすべて削除します。"
+
+#: admin/class-fep-admin-settings.php:222
+msgid "Remove Data on Uninstall?"
+msgstr "アンインストール時にデータを削除しますか ?"
+
+#: admin/class-fep-admin-settings.php:531
+msgid "Show site wide notification in header site?"
+msgstr "ヘッダーに通知を表示しますか ?"
+
+#: admin/class-fep-admin-settings.php:208
+#: admin/class-fep-admin-settings.php:345
+msgid "Always shown to Admins."
+msgstr "管理者には常に表示されます。"
+
+#: admin/class-fep-admin-settings.php:192
+msgid "Use KB, MB or GB (eg. 4MB)."
+msgstr "KB、MB または GB で指定してください。 (例：4MB)"
+
+#: admin/class-fep-admin-settings.php:191
+msgid "Maximum size of attachment"
+msgstr "添付ファイルの最大サイズ"
+
+#: admin/class-fep-admin-settings.php:185
+msgid "Allow to attach attachment with message?"
+msgstr "メッセージへのファイル添付を許可しますか ?"
+
+#: admin/class-fep-admin-settings.php:184
+msgid "Allow Attachment"
+msgstr "ファイル添付"
+
+#: admin/class-fep-admin-settings.php:168
+msgid "Reply Message status when sent from front end."
+msgstr "フロントページから送られた返信メッセージのステータス。"
+
+#: admin/class-fep-admin-settings.php:167
+msgid "Reply Message Status"
+msgstr "返信メッセージのステータス"
+
+#: functions.php:1700
+msgid "Pending"
+msgstr "保留"
+
+#: functions.php:1701 templates/admin-edit-message-announcement.php:49
+msgid "Publish"
+msgstr "公開"
+
+#: admin/class-fep-admin-settings.php:160
+msgid "Parent Message status when sent from front end."
+msgstr "フロントページから送られたメッセージのステータス。"
+
+#: admin/class-fep-admin-settings.php:159
+msgid "Parent Message Status"
+msgstr "メッセージのステータス"
+
+#: admin/class-fep-admin-settings.php:152
+msgid "Textarea"
+msgstr "テキストエリア"
+
+#: admin/class-fep-admin-settings.php:151
+msgid "WP Editor (Teeny)"
+msgstr "WP Editor (Teeny)"
+
+#: admin/class-fep-admin-settings.php:150
+msgid "WP Editor"
+msgstr "WP Editor"
+
+#: admin/class-fep-admin-settings.php:147
+msgid "Editor Type"
+msgstr "エディタタイプ"
+
+#: admin/class-fep-admin-settings.php:244
+msgid "Add or override."
+msgstr "追加または上書きする。"
+
+#: admin/class-fep-admin-settings.php:243
+msgid "Custom CSS"
+msgstr "カスタム CSS"
+
+#: admin/class-fep-admin-settings.php:141
+msgid "Time delay between two sent messages by a user in minutes (0 = no delay required)."
+msgstr "メッセージを送信した後、次のメッセージを送信できるようになるまでの時間  (0 = すぐに送信可能 )"
+
+#: admin/class-fep-admin-settings.php:140
+msgid "Time delay"
+msgstr "待機時間"
+
+#: admin/class-fep-admin-settings.php:134
+msgid "Maximum users per page in directory."
+msgstr "ディレクトリに表示するユーザーの数。"
+
+#: admin/class-fep-admin-settings.php:120
+msgid "Messages to show per page."
+msgstr "1ページに表示するメッセージの数。"
+
+#: admin/class-fep-admin-settings.php:99
+msgid "Front End PM Page"
+msgstr "Front End PM ページ"
+
+#: admin/class-fep-admin-settings.php:32
+#: admin/class-fep-admin-settings.php:1005
+#: includes/class-fep-user-settings.php:29
+msgid "Settings"
+msgstr "設定"
